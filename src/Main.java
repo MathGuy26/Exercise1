@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main{
 
     public static void main(String[] args){  // entry point of program
-        File myText = new File("random.txt"); // initialize random.txt file object
+        File myText = new File("C:\\Users\\18606\\IdeaProjects\\javaPrac\\src\\random.txt"); // initialize random.txt file object
         //System.out.println(myText.getAbsoluteFile());
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a word to search for: ");
@@ -24,7 +24,7 @@ public class Main{
 
         }
         if (found) {
-            System.out.println("The word " + wordChoice + "was found in the file 'random.txt'");
+            System.out.println("The word " + wordChoice + " was found in the file 'random.txt'");
 
         }else {
             System.out.println("The word " + wordChoice + " was not found in the file 'random.txt'");
