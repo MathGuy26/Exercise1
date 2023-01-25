@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main{
 
     public static void main(String[] args){  // entry point of program
-        File myText = new File("C:\\Users\\18606\\IdeaProjects\\javaPrac\\src\\random.txt"); // initialize random.txt file object
+        File myText = new File("src/random.txt"); // initialize random.txt file object
         //System.out.println(myText.getAbsoluteFile());
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a word to search for: ");
